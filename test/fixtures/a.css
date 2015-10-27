@@ -1,0 +1,4 @@
+.myClass {
+  composes: blue from './b.css';
+  color: red;
+}

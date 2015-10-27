@@ -1,0 +1,21 @@
+{
+  "name": "css-modules-loader-core-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^4.1.11",
+    "css-modules-loader-core": "0.0.12"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "tap": "^2.2.0"
+  },
+  "scripts": {
+    "test": "npm run build && tap test",
+    "build": "babel --out-dir lib src",
+    "prepublish": "npm run build"
+  },
+  "author": "James Friend <james@jsdf.co>",
+  "license": "MIT"
+}
