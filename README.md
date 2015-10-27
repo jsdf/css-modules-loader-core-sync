@@ -9,7 +9,7 @@ API is the same as css-modules-loader-core except that methods return values rat
 var fs = require('fs');
 var path = require('path');
 var resolve = require('resolve');
-var SyncCore = require('css-modules-loader-core-sync/');
+var SyncCore = require('css-modules-loader-core-sync');
 
 function pathFetcher(filepath, relativeTo) {
   return resolve.sync(filepath.replace(/["']/g, ''), {basedir: path.dirname(relativeTo)});
