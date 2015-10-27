@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "babel": "^5.8.29",
+    "resolve": "^1.1.6",
     "tap": "^2.2.0"
   },
   "scripts": {
